@@ -10,7 +10,7 @@ class App extends StatefulWidget {
 }
 
 class AppState extends State<App> {
-  int counter = 0;
+  int counter = 1;
 
   void fetchImage() async {
     counter += 1;
